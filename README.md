@@ -4,6 +4,15 @@ A Test Framework for BigData testing to allow Continuous Integration and Deliver
 ### Goal of Framework
 The framework should compare the source data with the target data to evaluate whether the target data was transformed correctly. The testers are required to write the transformation specification in a format that the test framework can read. Then the framework automatically analyzes the specification and generates tests to validate the transformation.
 
+Big Data testing tests the process and then checks data integrity.  It is important to check the quality of the data. Various data characteristics like data completeness,conformity, accuracy, duplication, consistency, validity and many more data attributes should be checked.
+
+Data processing can be:
+  1.  Batch
+  2.  Real time
+  3.  Interactive
+  
+Understanding of the business rules is key to verification.
+
 #### Data Dictionary:  Include field value before and after transformation
 __High Level View__
 *  First, we validate whether the target data has correct data types and value ranges at a high level.
