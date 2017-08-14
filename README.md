@@ -24,6 +24,11 @@ data.
 We only validate the source and target data, not the transition points in the middle. These are only checked for
 failure diagnosis (debugging).
 
+```bash
+Functional Testing Strategy:  Test every entry point in the system (feeds, databases, internal messaging, front-end transactions).  The goal is to produce rapid localization of data issues between points. 
+```
+TODO: Build Data Health Sensor - Data quality view e.g data has 50% NULL values in relevant fields is already telling us something
+TODO:  Review QuerySurge before building bespoke tool
 
 #### Validation of Source and Target:
 * Not all fields will make it to the end in their current state.
