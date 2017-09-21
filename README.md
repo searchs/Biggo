@@ -46,6 +46,15 @@ TODO:  Review QuerySurge before building bespoke tool
 ### Future Considerations
 Every data cell should be evaluated. The validation can be automated when source and target data are provided.
 
+__Schema Designs__
+Primary and Secondary Index: Decide what you want for the data 
+
+__Test Pyramid__
+Consider implementing a proper Test pyramid with Units, Integration and Acceptance(UI) tests.
+Hypothesis is a good Python library to start with. 
+
+
+
 
 
 
